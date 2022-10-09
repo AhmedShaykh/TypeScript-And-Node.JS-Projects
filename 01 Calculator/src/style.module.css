@@ -1,0 +1,12 @@
+* {
+    padding: 0.625rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    border: 2px solid gray;
+    width: 16rem;
+    margin: 0 auto;
+    margin-top: 30px;
+}
