@@ -19,7 +19,7 @@
     /* background-color: rgb(65, 60, 60); */
     background-image: linear-gradient(to left bottom, #2c2e30, #44484a, #5d6364, #787f80, #959d9c);
     color: white;
-    height: 8vh;
+    height: 13vh;
     font-weight: bold;
     font-size: .9rem;
 }
@@ -30,7 +30,7 @@
     font-weight: bold;
     background-color: rgb(29, 25, 25);
     color: whitesmoke;
-    width: 23%;
+    width: 23.5%;
 }
 
 .btn {
@@ -39,7 +39,7 @@
     font-weight: bold;
     background-color: rgb(29, 25, 25);
     color: whitesmoke;
-    width: 23%;
+    width: 23.5%;
 }
 .lastBtn {
     cursor: pointer;
@@ -47,5 +47,5 @@
     font-weight: bold;
     background-color: rgb(29, 25, 25);
     color: whitesmoke;
-    width: 23%;
+    width: 23.5%;
 }
