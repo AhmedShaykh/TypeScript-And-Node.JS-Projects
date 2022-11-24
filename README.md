@@ -1,1 +1,1 @@
-# TypeScript Panaverse Projects!
+# TypeScript CLI Calculator!
