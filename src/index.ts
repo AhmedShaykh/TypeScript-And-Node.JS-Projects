@@ -1,10 +1,28 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import chalk from "chalk";
+import chalkAnimation from "chalk-animation";
 
-let answers = await inquirer.prompt([{
-    name: "age",
+console.log(chalkAnimation.rainbow("Let's Start"));
+
+let input1 = await inquirer.prompt([{
+    name: "number1",
     type: "number",
-    message: "Enter your Age:"}
+    message: "Enter your Number 1:"
+}
 ]);
 
-console.log(chalk.cyan("Insha Allah, in " + (60 - answers.age) + " years you will be 60 years old."));
+let input2 = await inquirer.prompt([{
+    name: "number2",
+    type: "number",
+    message: "Enter your Number 2:"
+}
+]);
+
+let operator = await inquirer.prompt([{
+    name: "number1",
+    type: "number",
+    message: "Enter your Number 1:"
+}
+]);
