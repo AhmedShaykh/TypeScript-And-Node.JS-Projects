@@ -27,7 +27,7 @@ async function question() {
         {
             name: 'operator',
             type: 'list',
-            message: 'Please Select your Operator',
+            message: 'Please Select your Operator \n',
             choices: [
                 'Addition',
                 'Subtraction',
