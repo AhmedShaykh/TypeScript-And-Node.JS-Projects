@@ -1,3 +1,5 @@
 # TypeScript CLI Calculator!
 
-![CLI](cli.png)
+[npm i ahmx-cal](https://www.npmjs.com/package/ahmx-cal)
+
+npx ahmx-cal
