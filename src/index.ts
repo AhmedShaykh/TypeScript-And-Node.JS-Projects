@@ -16,10 +16,10 @@ async function welcome() {
 
     animation.stop();
 
-    startAgain()
+    startAgain();
 };
 
-welcome();
+await welcome();
 
 async function question() {
 
