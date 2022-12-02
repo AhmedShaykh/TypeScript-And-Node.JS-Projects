@@ -16,7 +16,7 @@ async function welcome() {
 
     animation.stop();
 
-    question();
+    startAgain()
 };
 
 welcome();
@@ -85,4 +85,16 @@ const calculation = async (isOperator: string, number1: number, number2: number)
         default:
             return;
     }
+};
+
+async function startAgain() {
+    do {
+        await question();
+
+        var againCal = await inquirer.prompt({
+            type: "input",
+            name: "restart",
+            message: "Do you want Continue ? Press y or n: "
+        });
+    } while (againCal.restart === 'y' || againCal.restart === 'Y' || againCal.restart === 'yes' || againCal.restart === 'Yes' || againCal.restart === 'YES');
 };
