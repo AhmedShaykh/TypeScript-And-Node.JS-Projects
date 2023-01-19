@@ -1,6 +1,6 @@
 {
-  "name": "ahmx-cal",
-  "version": "1.0.0",
+  "name": "ahmx-calc",
+  "version": "1.1.0",
   "type": "module",
   "main": "bin/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/AhmedShaykh/TypeScript-CLI-Calculator#readme",
   "bin": {
-    "ahmx-cal": "bin/index.js"
+    "ahmx-calc": "bin/index.js"
   },
   "dependencies": {
     "chalk": "^5.1.2",

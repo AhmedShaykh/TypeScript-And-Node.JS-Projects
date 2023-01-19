@@ -11,7 +11,7 @@ const runAnimation = () => {
 };
 
 async function welcome() {
-    let animation = chalkAnimation.rainbow("Let's Start Calculation");
+    let animation = chalkAnimation.rainbow("Let's Start Calculation:");
     await runAnimation();
 
     animation.stop();
@@ -27,7 +27,7 @@ async function question() {
         {
             name: 'operator',
             type: 'list',
-            message: 'Please Select your Operator \n',
+            message: 'Please Select your Operator: \n',
             choices: [
                 'Addition',
                 'Subtraction',

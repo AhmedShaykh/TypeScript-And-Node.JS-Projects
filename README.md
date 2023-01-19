@@ -1,3 +1,3 @@
-# TypeScript CLI Calculator!
+# TypeScript Calculator CLI!
 
-npx ahmx-cal
+npx ahmx-calc
